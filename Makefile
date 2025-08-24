@@ -12,7 +12,7 @@ tidy: ## Tidy go.mod file
 
 .PHONY: lint
 lint: ## Run linter
-	golangci-lint run -v -c .golangci.yaml
+	golangci-lint run -c .golangci.yaml
 
 .PHONY: test
 test: ## Run tests

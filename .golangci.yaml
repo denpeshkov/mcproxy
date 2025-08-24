@@ -13,6 +13,8 @@ linters:
     - dupl
     - dupword
     - err113
+    - exhaustruct
+    - funcorder
     - funlen
     - ginkgolinter
     - gocognit
@@ -35,9 +37,6 @@ linters:
     - wsl
     - wsl_v5
     - noinlineerr
-  settings:
-    govet:
-      enable-all: true
 
 formatters:
   enable:
